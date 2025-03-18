@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT Thumbnail Downloader - Get High-Quality YouTube Thumbnails >YT Thumbnail Grabber </title>
+    <meta name="description" content="Download high-quality YouTube thumbnails instantly with our free YT Thumbnail Downloader. Supports all resolutions including 4K, HD, and SD. No registration required.">
+    <meta name="keywords" content="YT thumbnail downloader, YouTube thumbnail downloader, download YouTube thumbnails, free YouTube thumbnail download, high-quality YouTube thumbnails, 4K YouTube thumbnails, HD YouTube thumbnails ">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-red-600">YT Thumbnail Grabber</div>
+                <div class="space-x-4">
+                    <a href="#about us.html" class="text-gray-600 hover:text-red-600">about us</a>
+                    <a href="#privacy policy.html" class="text-gray-600 hover:text-red-600">privacy policy</a>
+                    <a href="#contact us.html" class="text-gray-600 hover:text-red-600">contact us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-6">Download YouTube Thumbnails in 4K Quality</h1>
+            <p class="text-xl text-gray-600 mb-8">Get high-resolution YouTube video thumbnails instantly for free!</p>
+            
+            <!-- Download Form -->
+            <div class="max-w-2xl mx-auto">
+                <form id="downloadForm" class="flex gap-4">
+                    <input type="url" 
+                           id="videoUrl"
+                           placeholder="Paste YouTube Video URL here..." 
+                           class="flex-1 px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                    <button type="submit" 
+                            class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+                        Get Thumbnail
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+        <!-- Results Section -->
+    <section id="results" class="py-16 hidden">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Available Thumbnails</h2>
+            <div class="grid md:grid-cols-2 gap-8" id="thumbnailsContainer"></div>
+        </div>
+    </section>
+<!-- Tutorial Section -->
+    <section id="tutorial" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How to Use YT Thumbnail Downloader - Step by Step Guide</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Step 1: Copy YouTube Video URL</h3>
+                    <p class="text-gray-600">
+                        To start using our YT thumbnail downloader, go to YouTube and find the video whose thumbnail you want to download. Right-click on the video and select "Copy video URL" or simply copy the URL from the address bar.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Step 2: Paste the URL</h3>
+                    <p class="text-gray-600">
+                        Return to this YouTube thumbnail downloader tool and paste the copied URL into the input field. Make sure the URL is correct to get the desired thumbnail.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Step 3: Click "Get Thumbnail"</h3>
+                    <p class="text-gray-600">
+                        Click on the "Get Thumbnail" button. Our tool will quickly fetch and display the available thumbnail resolutions: 4K, HD, SD, and more. Select your preferred resolution and download the thumbnail instantly.
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Why Use Our YT Thumbnail Downloader?</h3>
+                    <p class="text-gray-600">
+                        Our YouTube thumbnail downloader is fast, free, and doesn't require any API keys or registration. Download high-quality thumbnails for personal use, blog posts, presentations, or social media. 
+                    </p>
+                    <p class="text-gray-600 mt-2">
+                        Whether you need a YT thumbnail downloader for content creation or just want to save a memorable video image, our tool is the perfect solution!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How to Use Section -->
+    <section id="how-to-use" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">How to Download YouTube Thumbnails</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="text-4xl mb-4">1</div>
+                    <h3 class="text-xl font-semibold mb-2">Copy Video URL</h3>
+                    <p class="text-gray-600">Go to YouTube and copy the URL of the video whose thumbnail you want to download</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-4xl mb-4">2</div>
+                    <h3 class="text-xl font-semibold mb-2">Paste URL Here</h3>
+                    <p class="text-gray-600">Paste the copied URL in the input field above and click "Get Thumbnail"</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-4xl mb-4">3</div>
+                    <h3 class="text-xl font-semibold mb-2">Download Thumbnail</h3>
+                    <p class="text-gray-600">Choose your preferred quality and download the thumbnail instantly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Why Choose Our Tool?</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4">No API Key Required</h3>
+                    <p class="text-gray-600">Download thumbnails without any registration or API key requirements</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold mb-4">Multiple Resolutions</h3>
+                    <p class="text-gray-600">Get thumbnails in various resolutions including 4K, HD, and SD</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>© 2023 YT Thumbnail Grabber. Free tool for downloading YouTube thumbnails.</p>
+            <p class="mt-2 text-gray-400">Not affiliated with YouTube. Videos belong to their respective owners.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('downloadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const videoUrl = document.getElementById('videoUrl').value;
+            const videoId = extractVideoId(videoUrl);
+
+            if (!videoId) {
+                alert('Please enter a valid YouTube URL');
+                return;
+            }
+
+            const qualities = [
+                { name: 'Max Resolution', code: 'maxresdefault' },
+                { name: 'High Quality', code: 'hqdefault' },
+                { name: 'Medium Quality', code: 'mqdefault' },
+                { name: 'Standard Quality', code: 'sddefault' },
+                { name: 'Start Image', code: '0' }
+            ];
+
+            const container = document.getElementById('thumbnailsContainer');
+            container.innerHTML = '';
+            
+            qualities.forEach(quality => {
+                const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/${quality.code}.jpg`;
+                const card = `
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <img src="${thumbnailUrl}" alt="Thumbnail" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="font-semibold mb-2">${quality.name}</h3>
+                            <a href="${thumbnailUrl}" download 
+                               class="inline-block px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', card);
+            });
+
+            document.getElementById('results').classList.remove('hidden');
+            window.scrollTo({
+                top: document.getElementById('results').offsetTop - 100,
+                behavior: 'smooth'
+            });
+        });
+
+        function extractVideoId(url) {
+            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+            const match = url.match(regExp);
+            return (match && match[2].length === 11) ? match[2] : null;
+        }
+    </script>
+</body>
+                      </html>
