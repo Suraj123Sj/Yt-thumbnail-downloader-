@@ -1,4 +1,4 @@
 User-agent: *          # Applies to all bots
 Disallow: /private/    # Blocks access to the /private/ directory
 Allow: /public/        # Allows access to the /public/ directory
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://yt-thumbnail-downloader-phi.vercel.app/sitemap.xml
