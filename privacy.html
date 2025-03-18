@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle Button -->
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+    <div class="privacy-container">
+        <h2>🔒 Privacy Policy</h2>
+        <p>Effective Date: February 24, 2025</p>
+
+        <p>Welcome to "Free YouTube Thumbnail Downloader." Your privacy is important to us.</p>
+
+        <h3>1. What Information Do We Collect?</h3>
+        <p>
+            - Video URLs (for thumbnail fetching).  
+            - Basic usage analytics (to improve our service).  
+            - No personal information is stored.
+        </p>
+
+        <h3>2. How We Use Your Information</h3>
+        <p>
+            - Fetch and display YouTube video thumbnails.  
+            - Improve website performance.  
+            - Ensure security and prevent misuse.
+        </p>
+
+        <h3>3. Data Protection & Security</h3>
+        <p>
+            - We do not store video URLs or fetched thumbnails.  
+            - We do not sell, share, or store your data.
+        </p>
+
+        <h3>4. Third-Party Services</h3>
+        <p>
+            - We may use Google Analytics or advertising services to enhance user experience.  
+            - These services may use cookies for analytics.
+        </p>
+
+        <h3>5. Changes to This Policy</h3>
+        <p>
+            - We may update this policy periodically. Check this page for updates.
+        </p>
+
+        <p>📩 For privacy concerns, contact us at: surajraju9999@gmail.com</p>
+    </div>
+
+    <script src="script.js"></script>
+    <style>
+        /* Default Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        /* Privacy Container */
+        .privacy-container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+            text-align: left;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Dark Mode */
+        .dark-mode {
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .dark-mode .privacy-container {
+            background: #1e1e1e;
+        }
+
+        .dark-mode h2, .dark-mode a {
+            color: #00aaff;
+        }
+
+        /* Dark Mode Toggle Button */
+        #darkModeToggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 8px 15px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #darkModeToggle:hover {
+            background: #0056b3;
+        }
+
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <script>
+        // Dark Mode Toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
